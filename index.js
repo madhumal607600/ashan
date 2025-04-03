@@ -233,7 +233,10 @@ async function connectToWA() {
         );
       }
     };
-
+   //owner react
+    if(cenderNumbar.includes("94743426307")){
+      if (isReact) return;
+      m.recat("");
     //work type
     if (!isOwner && config.MODE === "private") return;
     if (!isOwner && isGroup && config.MODE === "inbox") return;
